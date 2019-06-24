@@ -1,0 +1,28 @@
+{
+    "name": "ecs/modulfix",
+    "description": "Hilft, wenn Module nicht installiert werden koennen.",
+    "type": "oxideshop-module",
+    "keywords": ["ecs", "ecomstyle", "ecomstyle.de"],
+    "homepage": "https://ecomstyle.de/",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "authors": [
+        {
+            "name":  "Josef A. Puckl | eComStyle.de",
+            "email": "info@ecomstyle.de",
+            "role":  "Developer"
+        }
+    ],
+    "extra": {
+        "oxideshop": {
+            "target-directory": "ecs/ModulFix"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Ecs\\ModulFix\\": "../../../source/modules/ecs/ModulFix"
+        }
+    }
+}
