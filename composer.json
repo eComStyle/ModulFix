@@ -4,7 +4,7 @@
     "type": "oxideshop-module",
     "keywords": ["ecs", "ecomstyle", "ecomstyle.de"],
     "homepage": "https://ecomstyle.de/",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": [
         "proprietary"
     ],
